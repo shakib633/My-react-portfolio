@@ -1,0 +1,15 @@
+.container-skill{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 26px;
+  
+    
+}
+
+
+@media only screen and (max-width:776px){
+    .container-skill{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+}

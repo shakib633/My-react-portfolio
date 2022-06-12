@@ -1,0 +1,83 @@
+ [
+    {
+      "id": 1,
+      "image": "https://i.ibb.co/bHzFGSm/icons8-html-5-64-1.png",
+      "title": "HTML5 "
+    },
+    {
+      "id": 2,
+      "image": "https://i.ibb.co/dQFw99j/icons8-css3-64.png",
+      "title": "CSS3 "
+    },
+    {
+      "id": 3,
+      "image": "https://i.ibb.co/mbn9BMr/icons8-bootstrap-64.png",
+      "title": "Bootstrap "
+    },
+    {
+      "id": 4,
+      "image": "https://i.ibb.co/qpQWp3R/download.png",
+      "title": "Tailwind "
+    },
+    {
+      "id": 5,
+      "image": "https://i.ibb.co/JqzXzMD/icons8-javascript-64-1.png",
+      "title": "Javascript "
+    },
+    {
+      "id": 6,
+      "image": "https://i.ibb.co/3M0g6sV/icons8-react-64.png",
+      "title": "React.js "
+    },
+    {
+      "id": 7,
+      "image": "https://i.ibb.co/zQ1q8qb/icons8-node-js-64.png",
+      "title": "Node.js"
+    },
+    {
+      "id": 8,
+      "image": "https://i.ibb.co/VJpnBJ5/express.png",
+      "title": " Express.js "
+    },
+    {
+      "id": 9,
+      "image": "https://i.ibb.co/XWHdfgN/icons8-firebase-64.png",
+      "title": "FireBase "
+    },
+    {
+      "id": 10,
+      "image": "https://i.ibb.co/dcbZNyP/icons8-mongodb-64.png",
+      "title": "MongoDB "
+    },
+    {
+      "id": 11,
+      "image": "https://i.ibb.co/ZccfLKY/icons8-heroku-64.png",
+      "title": "Heroku "
+    },
+    {
+      "id": 12,
+      "image": "https://i.ibb.co/Dzssffh/icons8-rest-api-64-1.png",
+      "title": "RestAPI "
+    },
+    {
+      "id": 13,
+      "image": "https://i.ibb.co/ZX0KH0w/icons8-github-64-1.png",
+      "title": "GitHub "
+    },
+    {
+      "id": 14,
+      "image": "https://i.ibb.co/dtXWrYY/icons8-netlify-a-cloud-computing-company-that-offers-hosting-and-serverless-backend-services-for-sta.png",
+      "title": "Netlify "
+    },
+    {
+      "id": 15,
+      "image": "https://i.ibb.co/GpBDyHV/icons8-figma-64-1.png",
+      "title": "Figma "
+    },
+    {
+      "id": 16,
+      "image": "https://i.ibb.co/hc0Tc0d/icons8-visual-studio-64.png",
+      "title": "VsCode"
+    }
+   
+  ]

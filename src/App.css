@@ -4,6 +4,9 @@
   margin: 0;
   box-sizing: border-box;
 }
+/* .app{
+  background-color: #dbdfe3b3;
+} */
 html {
   scroll-behavior: smooth;
 }
@@ -55,11 +58,11 @@ button {
   box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
 }
 .btn_shadow:hover {
-  background: #ff014f;
+  background: #ff014dd6;
   color: white;
   transform: translateY(-10px);
 }
-.box_shodow {
+.box_shadow {
   background: linear-gradient(145deg, #e2e8ec, #ffffff);
   box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
   border-radius: 10px;
@@ -92,8 +95,8 @@ h1 {
 }
 .grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 35px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 25px;
 }
 p {
   color: #3c3e41;
@@ -128,5 +131,8 @@ footer p {
   .left,
   .right {
     width: 100%;
+  }
+  .app{
+    background-color:white;
   }
 }

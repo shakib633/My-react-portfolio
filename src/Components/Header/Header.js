@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 import "./Header.css"
-import logo from "../pic/logo.png"
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   // fixed Header
@@ -9,41 +9,30 @@ const Header = () => {
     header.classList.toggle("active", window.scrollY > 100)
   })
   // Toogle Menu
-  const [Mobile, setMobile] = useState(false)
+  const [Mobile, setMobile] = useState()
   return (
     <>
       <header className='header'>
         <div className='container d_flex'>
-          <div className='logo'>
-            <img src={logo} alt='' />
+          <div className=''>
+            <h3 className=''>s h a k i b</h3>
           </div>
 
           <div className='navlink'>
             <ul className={Mobile ? "nav-links-mobile" : "link f_flex uppercase"} onClick={() => setMobile(false)}>
-              {/*<ul className='link f_flex uppercase {Mobile ? "nav-links-mobile" : "nav-links"} onClick={() => setMobile(false)}'>*/}
+            
               <li>
-                <a href='#home'>home</a>
-              </li>
+              <Link to='/'>Home</Link></li>
+              
               <li>
-                <a href='#features'>features</a>
+                <a href='#projects'>projects</a>
               </li>
-              <li>
-                <a href='#portfolio'>portfolio</a>
-              </li>
-              <li>
-                <a href='#resume'>resume</a>
-              </li>
-              <li>
-                <a href='#clients'>clients</a>
-              </li>
-              <li>
-                <a href='#blog'>blog</a>
-              </li>
+          <li>
+          <Link to='/blogs'>Blogs</Link>
+
+          </li>
               <li>
                 <a href='#contact'>contact</a>
-              </li>
-              <li>
-                <button className='home-btn'>BUY NOW</button>
               </li>
             </ul>
 
