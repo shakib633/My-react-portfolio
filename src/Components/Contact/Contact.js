@@ -32,7 +32,7 @@ const Contact = () => {
           <div className='content d_flex'>
               
             <div className='left'>
-              <div className='box box_shodow'>
+              <div className='box box_shadow'>
                 <div className='img'>
                   <img src={contact1} alt='' />
                 </div>
@@ -44,10 +44,10 @@ const Contact = () => {
                   <p>Email: shakibshuvo633@gmail.com</p> <br />
                   <span>FIND WITH ME</span>
                   <div className='button f_flex'>
-                   <a target="_blank " href="https://www.facebook.com/shakib633"> <button className='btn_shadow'>                       <i className='fab fa-facebook'></i></button></a>
-                   <a target="_blank "  href="https://www.instagram.com/s_h_uvo/"> <button className='btn_shadow'>                       <i class="fab fa-instagram"></i></button></a>
-                   <a target="_blank "  href="https://github.com/shakib633"> <button className='btn_shadow'>                       <i target="_blank "className='fab fa-github'></i></button></a>
-                   <a  href="https://www.linkedin.com/in/md-shakib-ahamed-1962ba121/"> <button className='btn_shadow'>                       <i className='fab fa-linkedin'></i></button></a>
+                   <a target="_blank " href="https://www.facebook.com/shakib633"> <button className='btn_shadow'><i className='fab fa-facebook'></i></button></a>
+                   <a target="_blank "  href="https://www.instagram.com/s_h_uvo/"> <button className='btn_shadow'><i className="fab fa-instagram"></i></button></a>
+                   <a target="_blank "  href="https://github.com/shakib633"> <button className='btn_shadow'> <i target="_blank "className='fab fa-github'></i></button></a>
+                   <a  href="https://www.linkedin.com/in/md-shakib-ahamed-1962ba121/"> <button className='btn_shadow'><i className='fab fa-linkedin'></i></button></a>
                    
                   </div>
                 </div>

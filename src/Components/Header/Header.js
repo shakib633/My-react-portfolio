@@ -34,6 +34,9 @@ const Header = () => {
               <li>
                 <a href='#contact'>contact</a>
               </li>
+              <li>
+                <button className='btn btn-warning shadow'><a target ="_blank " href="https://drive.google.com/file/d/1ILTu_dPTHIjFvFq3gP0sXYbdhM5H1ztt/view?usp=sharing" >Resume</a></button>
+              </li>
             </ul>
 
             <button className='toggle' onClick={() => setMobile(!Mobile)}>

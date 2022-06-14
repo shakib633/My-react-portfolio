@@ -9,11 +9,11 @@ const Projects = () => {
         .then(res=>res.json())
         .then(data=>setProjects(data))
 
-    },[])
-    console.log(projects);
+    },[projects])
     return (
         <div id='projects'>
-            <div className='projectContainer m-3 my-5 animated rotateInDownRight
+            <h2 className='text-center text-warning mt-5'>My Projects </h2>
+            <div className='projectContainer m-3 mt-3 my-5 animated rotateInDownRight
 '> 
             {
                 projects.map(project=><ProjectsCard key={project._id} project={project}>

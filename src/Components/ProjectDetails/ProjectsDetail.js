@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import {Card} from 'react-bootstrap'
+import {Card, Carousel} from 'react-bootstrap'
 import css from './ProjectsDetail.css'
 const ProjectsDetail = () => {
     const { id } = useParams();
@@ -12,35 +12,59 @@ const ProjectsDetail = () => {
             .then(data => setProject(data));
     }, []);
     return (
-//         <div className="carousel-item">
-//         <div class="card" style="width: 18rem;">
-//   {/* <img class="card-img-top" src="..." alt="Card image cap"></img> */}
-//   <div class="card-body">
-//     <h5 class="card-title">Card title</h5>
-//     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-//   </div>
-  
-//   <div class="card-body">
-//     <a href="#" class="card-link">Card link</a>
-//     <a href="#" class="card-link">Another link</a>
-//   </div>
-// </div>
-//         </div>
-<div> 
-<Card style={{ width: '18rem' }}>
-  <Card.Img variant="top" src={project.image} />
+<div className=""> 
+<div className="my-5  ">
+<Card className=" card-item mx-auto" style={{ width: '36rem' }}>
+    <Carousel>
+    <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={project.image}
+          alt="First slide"
+        />
+        
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={project.slide2}
+          alt="Second slide"
+        />
+       
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={project.slide3}
+          alt="Third slide"
+        />
+       
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={project.slide4}
+          alt="Third slide"
+        />
+       
+      </Carousel.Item>
+    </Carousel>
   <Card.Body>
-    <Card.Title>{project.title}</Card.Title>
+    <Card.Title>{project.title} <p>{project.about}</p>
+</Card.Title>
     <Card.Text>
-      {project.about}
+      {project.details}
     </Card.Text>
   </Card.Body>
   
-  <Card.Body>
-    <Card.Link className="text-decoration-none btn btn-primary rounded shadow" href={project.livelink}>Git</Card.Link>
-    <Card.Link href="#">Another Link</Card.Link>
+  <Card.Body className="mx-3">
+    <Card.Link className="text-decoration-none btn btn-primary  rounded shadow" target="_blank " href={project.livelink}>Livesite</Card.Link>
+    <Card.Link className="text-decoration-none btn btn-primary rounded shadow"target="_blank " href={project.clint}>Clint-side</Card.Link>
+    <Card.Link className="text-decoration-none btn btn-primary rounded shadow" target="_blank "  href={project.server}>Server-side</Card.Link>
   </Card.Body>
 </Card>
+</div>
+
 </div>
 
 );
